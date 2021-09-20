@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class App {
+    public static void main(String[] args) {
+        
+        Scanner luas = new Scanner(System.in);
+
+        double a = luas.nextDouble();
+        double b = luas.nextDouble();
+        double Segitiga = a * b / 2;
+        
+        System.out.printf("%.2f", Segitiga);
+        
+
+    }
+}
