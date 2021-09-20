@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class App {
+    public static void main(String[] args) {
+        
+
+        int A, B, hasil;
+        Scanner input = new Scanner(System.in);
+        A = input.nextInt();
+        B = input.nextInt();
+
+        hasil = A + B;
+
+        System.out.println(hasil);
+
+    }
+}
